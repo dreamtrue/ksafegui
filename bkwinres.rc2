@@ -1,0 +1,29 @@
+#pragma once
+
+//////////////////////////////////////////////////////////////////////////
+// XML
+
+DEFINE_XML(IDR_BK_SKIN_DEF,                 100, "res\\def_skin.xml")
+	DEFINE_XML(IDR_BK_STYLE_DEF,                101, "res\\def_style.xml")
+	DEFINE_XML(IDR_BK_STRING_DEF,               102, "res\\def_string.xml")
+	DEFINE_XML(IDR_BK_MAIN_DIALOG,              103, "res\\dlg_main.xml")
+	DEFINE_XML(IDR_BK_ABOUT_DIALOG,				104, "res\\dlg_about.xml")
+
+	//////////////////////////////////////////////////////////////////////////
+	// BITMAP
+
+	DEFINE_BMP(IDB_MSG_HEADER,					70,  "res\\msgbox_header.bmp")
+	DEFINE_BMP(IDB_MSG_BODY,					71,  "res\\msgbox_body.bmp")
+	DEFINE_BMP(IDB_MSG_FOOTER,					72,	 "res\\msgbox_footer.bmp")
+
+	//////////////////////////////////////////////////////////////////////////
+	// ICON
+
+	DEFINE_ICO(IDI_BEIKESAFE,                   100, "res\\beikesafe.ico")
+	DEFINE_ICO(IDI_SMALL,                       101, "res\\beikesafe.ico")
+
+	//////////////////////////////////////////////////////////////////////////
+	// PNG
+
+	DEFINE_PNG(IDB_BTN_SYS_CLOSE,               101, "res\\btn_sys_close.png")
+	DEFINE_PNG(IDB_BTN_ABOUT,	102,"res\\btn_sys_close.png")

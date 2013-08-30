@@ -1,0 +1,7 @@
+<skins>
+	<imghorzex name="msgboxhead" src="70" left="3"/>
+	<imgframe name="msgboxbody" src="71" left="3" top="3" crbg="FFFFFF"/>
+	<imgframe name="msgboxfoot" src="72" left="3" top="3" part="bottom"/>
+	<png name=closeonlybtn src=101 subwidth=42/>
+	<png name=aboutbtn src=102 subwidth=42/>
+</skins>

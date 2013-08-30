@@ -1,0 +1,16 @@
+﻿<layer title="我程序001" width="800" height="570" appwin="1" resize="1">
+  <header class="msgboxhead" width="full" height="32" >
+    <icon src="101" pos="9,9"/>
+    <text id="60004" class="dlgtitle" pos="30,10">我的程序</text>
+    <imgbtn id="60001" class="linkimage" skin="closeonlybtn" pos="-43,1" />
+  </header>
+  <footer class="msgboxfoot" width="full" height="3">
+    <dlg id="60008" pos="0,0,-0,-0" class="client"></dlg>
+  </footer>
+  <body class="msgboxbody" width="full" height="full">
+    <dlg pos="0,0,-0,-0">
+      <text pos="300,100">这是我的第一个例子：hello world！</text>
+	<imgbtn id="60002" class="linkimage" skin="aboutbtn" pos="350,150" />
+    </dlg>
+  </body>
+</layer>
